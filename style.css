@@ -18,10 +18,10 @@
 body {
     margin: 5px;
     font-size: 17px;
-    background-color: grey;
     background-image: url(https://static.natgeo.pt/files/styles/image_3200/public/hubble-13-ngc-1300-barred-spiral-galaxy-1920.jpg?w=1190&h=679);
     background-repeat: none;
     background-size: cover;
+    object-fit: cover;
 }
 
 fieldset {
@@ -50,6 +50,12 @@ select, input {
     text-align: center;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -63,4 +69,12 @@ button {
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
+}
+
+@media (min-width: 350px) {
+    body {
+        background-size:cover;
+        background-repeat: none;
+        object-fit: contain;
+    }
 }
