@@ -12,12 +12,16 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    color: white;
 }
 
 body {
     margin: 5px;
     font-size: 17px;
     background-color: grey;
+    background-image: url(https://static.natgeo.pt/files/styles/image_3200/public/hubble-13-ngc-1300-barred-spiral-galaxy-1920.jpg?w=1190&h=679);
+    background-repeat: none;
+    background-size: cover;
 }
 
 fieldset {
