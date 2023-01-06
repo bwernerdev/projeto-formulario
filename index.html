@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="teste">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Formulário</title>
+</head>
+<body>
+    <div class="start-form">
+        <h1>Cadastro de Clientes</h1>
+    </div>
+    <div class="container">
+    <form method="get">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            <input type="text" name="full-name" placeholder="Nome Completo"> <br><br>
+        </label>
+        <label>
+            <input type="number" name="birthday-date" placeholder="Idade"> 
+            <br><br>
+        </label>
+        <label>
+            <select name="gender" onclick="(hideMenu)">
+                <option selected>Gênero</option>
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+                <option value="undefined">Não definido</option>
+            </select>
+            <br><br>
+        </label>
+        <select name="formation">
+            <option selected>Escolaridade</option>
+            <option value="male">Ensino Médio Completo</option>
+            <option value="female">Ensino Médio Incompleto</option>
+            <option value="undefined">Ensino Superior Incompleto</option>
+            <option value="undefined">Ensino Superior Completo</option>
+        </select>
+        <br><br>
+        <label>
+            <input type="email" name="email" placeholder="E-mail"> <br><br>
+        </label>
+        <label>
+            <input type="number" name="contact" min="9" max="15" placeholder="Contato"> <br><br>
+        </label>
+    </fieldset>
+    </div>
+    <div class="container">
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            <input type="text" name="atual-job" placeholder="Profissão Atual"> <br><br>
+        </label>
+        <label>
+            <input type="text" name="enterprise" placeholder="Empresa Atual"> <br><br>
+        </label>
+        <label>
+            <input type="text" name="wanter-job" placeholder="Cargo Pretendido"> <br><br>
+        </label>
+        <label>
+            <input type="text" name="planned-salary" placeholder="Salário Pretendido"> <br><br>
+        </label>
+    </fieldset>
+    </div>
+    <div class="button">
+        <button>Cadastrar</button>
+    </div>
+    </form>
+</body>
+</html>
