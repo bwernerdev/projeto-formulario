@@ -20,7 +20,7 @@ body {
     font-size: 17px;
     background-image: url(https://static.natgeo.pt/files/styles/image_3200/public/hubble-13-ngc-1300-barred-spiral-galaxy-1920.jpg?w=1190&h=679);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     object-fit: cover;
 }
 
